@@ -1,43 +1,22 @@
-<!-- <html>
-  <body>
-    <div id="app"></div>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script type="text/javascript">
-      const app = document.getElementById('app');
-      const header = document.createElement('h1');
-      const text = 'Develop. Preview. Ship.';
-      const headerContent = document.createTextNode(text);
-      header.appendChild(headerContent);
-      app.appendChild(header);
-    </script>
-  </body>
-</html> -->
-
-<!-- <html>
-  <body>
-    <div id="app"></div>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-      const app = document.getElementById('app');
-      const root = ReactDOM.createRoot(app);
-      root.render(<h1>Develop. Preview. Ship by react dom.</h1>);
-    </script>
-  </body>
-</html> -->
-
 <html>
   <body>
     <div id="app"></div>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Babel Script -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script type="text/jsx">
-      const domNode = document.getElementById('app');
-      const root = ReactDOM.createRoot(domNode);
-      root.render(<h1>Develop. Preview. Ship using react and babel.</h1>);
+    <script type="text/javascript">
+      // Select the div element with 'app' id
+      const app = document.getElementById('app');
+ 
+      // Create a new H1 element
+      const header = document.createElement('h1');
+ 
+      // Create a new text node for the H1 element
+      const text = 'Develop. Preview. Ship.';
+      const headerContent = document.createTextNode(text);
+ 
+      // Append the text to the H1 element
+      header.appendChild(headerContent);
+ 
+      // Place the H1 element inside the div
+      app.appendChild(header);
     </script>
   </body>
 </html>
