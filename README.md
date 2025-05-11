@@ -1,5 +1,51 @@
-## Next.js App Router Course - Starter
+<!-- <html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="text/javascript">
+      const app = document.getElementById('app');
+      const header = document.createElement('h1');
+      const text = 'Develop. Preview. Ship.';
+      const headerContent = document.createTextNode(text);
+      header.appendChild(headerContent);
+      app.appendChild(header);
+    </script>
+  </body>
+</html> -->
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+<!-- <html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+      const app = document.getElementById('app');
+      const root = ReactDOM.createRoot(app);
+      root.render(<h1>Develop. Preview. Ship by react dom.</h1>);
+    </script>
+  </body>
+</html> -->
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+<html>
+  <body>
+    <div id="app"></div>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Babel Script -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/jsx">
+      const domNode = document.getElementById('app');
+      const root = ReactDOM.createRoot(domNode);
+      root.render(<h1>Develop. Preview. Ship using react and babel.</h1>);
+    </script>
+  </body>
+</html>
+
+React core concepts
+There are three core concepts of React that you'll need to be familiar with to start building React applications. These are:
+
+Components
+Props
+State
+
