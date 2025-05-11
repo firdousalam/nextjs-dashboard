@@ -1,4 +1,5 @@
-<!-- <html>
+```html
+ <html>
   <body>
     <div id="app"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
@@ -12,9 +13,9 @@
       app.appendChild(header);
     </script>
   </body>
-</html> -->
+</html>
 
-<!-- <html>
+ <html>
   <body>
     <div id="app"></div>
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
@@ -25,7 +26,7 @@
       root.render(<h1>Develop. Preview. Ship by react dom.</h1>);
     </script>
   </body>
-</html> -->
+</html> 
 
 <html>
   <body>
